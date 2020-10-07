@@ -1,0 +1,552 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #566366;
+}
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+ul {
+  list-style: none;
+}
+.container {
+  width: 75%;
+  margin: auto;
+}
+h2 {
+  text-transform: uppercase;
+}
+h3 {
+  text-transform: uppercase;
+}
+
+/*main header css*/
+.main-header {
+  background-image: url(img/main-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+.main-text {
+  position: absolute;
+  text-align: center;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.main-text h2 {
+  font-size: 320%;
+  padding: 5px 0;
+  color: #fff;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  margin-bottom: 60px;
+}
+.main-text a {
+  color: #fff;
+  padding: 12px 30px;
+  border: 2px solid #fff;
+  transition: 0.2s;
+}
+.main-text a:hover {
+  border: 2px solid #2ecc71;
+  background-color: #2ecc71;
+  color: #fff;
+}
+
+/*main nav css*/
+.main-nav {
+  background-color: #252e30;
+}
+.main-nav:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.focal-logo {
+  width: 20%;
+  float: left;
+}
+.focal-logo h2 {
+  padding: 8px;
+  color: #fff;
+}
+.focal-logo .f-logo {
+  color: #fff;
+  font-size: 130%;
+  padding: 0 10px;
+  background-color: #4b5456;
+  margin-right: 8px;
+}
+.focal-logo .cal {
+  color: #2ecc71;
+}
+.nav-items {
+  width: 80%;
+  float: right;
+}
+.nav-items ul {
+  float: right;
+}
+.nav-items li {
+  float: left;
+}
+.nav-items li a {
+  display: block;
+  padding: 20px;
+  color: #fff;
+}
+.nav-items li a:last-child {
+  padding-right: 0;
+}
+.nav-items li a:hover {
+  color: #2ecc71;
+}
+.nav-items .active {
+  color: #2ecc71;
+}
+
+/*value,goals & hobbies ara css*/
+.vgb {
+  width: 30.5%;
+  float: left;
+  overflow: hidden;
+  margin: 80px 0;
+  margin-right: 4%;
+}
+.vgb:last-child {
+  margin-right: 0;
+}
+.vgb h3 {
+  font-size: 160%;
+  margin-bottom: 20px;
+}
+.vgb p {
+  text-align: justify;
+}
+
+/*about me css*/
+.about-me {
+  width: 100%;
+  overflow: hidden;
+  background-color: #f2f2f1;
+}
+.my-img {
+  width: 38%;
+  float: left;
+}
+.my-img img {
+  width: 100%;
+  display: block;
+}
+.my-inf {
+  width: 62%;
+  overflow: hidden;
+  padding: 100px 170px 0px 80px;
+}
+.my-inf-top {
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 35px;
+}
+.my-inf-top h2 {
+  margin-bottom: 35px;
+}
+.my-inf-top p {
+  text-align: justify;
+  font-size: 97%;
+  line-height: 20px;
+  margin-bottom: 25px;
+}
+.my-inf-bot {
+  width: 100%;
+  overflow: hidden;
+}
+.mib-infs {
+  width: 100%;
+  overflow: hidden;
+}
+.mib-inf {
+  width: 46%;
+  float: left;
+  margin-right: 8%;
+}
+.mib-inf:last-child {
+  margin-right: 0;
+  margin-bottom: 30px;
+}
+.mib-icon {
+  width: 15%;
+  float: left;
+  overflow: hidden;
+}
+.mib-icon .fas {
+  font-size: 200%;
+  color: #2ecc71;
+  padding-top: 10px;
+}
+.mib-cont {
+  width: 85%;
+  padding: 5px;
+  padding-right: 0;
+  overflow: hidden;
+}
+.mib-cont h3 {
+  margin-bottom: 10px;
+}
+.mib-cont p {
+  text-align: justify;
+  font-size: 97%;
+}
+.my-skill {
+  overflow: hidden;
+}
+
+/*skill ara css*/
+.skills {
+  width: 50%;
+  float: left;
+  overflow: hidden;
+}
+.skills h2 {
+  font-size: 200%;
+  margin-bottom: 30px;
+}
+.skills p {
+  padding: 0 20px 20px 0;
+  text-align: justify;
+}
+.skills .contact-btn {
+  margin: 50px 0;
+}
+.skills .contact-btn a {
+  padding: 15px 40px;
+  color: #2ecc71;
+  border: 2px solid #2ecc71;
+}
+.skills .contact-btn a:hover {
+  color: #fff;
+  border: 2px solid #2ecc71;
+  background-color: #2ecc71;
+}
+.progress {
+  width: 50%;
+  overflow: hidden;
+  margin: 80px 0;
+}
+
+.prog-item {
+  width: 100%;
+  padding: 20px 0 20px 50px;
+}
+.prog-bod {
+  background-color: #f2f2f1;
+}
+.prog-bod span {
+  display: block;
+  padding-top: 3px;
+  margin-right: 5px;
+}
+
+.prog-per1 {
+  height: 25px;
+  width: 90%;
+  color: #000;
+  background-color: #2ecc71;
+  margin-top: 10px;
+  color: #fff;
+  text-align: right;
+}
+.prog-per2 {
+  height: 25px;
+  width: 80%;
+  color: #000;
+  background-color: #2ecc71;
+  margin-top: 10px;
+  color: #fff;
+  text-align: right;
+}
+.prog-per3 {
+  height: 25px;
+  width: 90%;
+  color: #000;
+  background-color: #2ecc71;
+  margin-top: 10px;
+  color: #fff;
+  text-align: right;
+}
+.prog-per4 {
+  height: 25px;
+  width: 70%;
+  color: #000;
+  background-color: #2ecc71;
+  margin-top: 10px;
+  color: #fff;
+  text-align: right;
+}
+
+/*resume area start*/
+
+.resume {
+  background-image: url(img/style-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  overflow: hidden;
+}
+.resume h2 {
+  margin: 80px 0 40px;
+}
+.resume p {
+  padding: 0 50px;
+  margin-bottom: 40px;
+}
+
+.down-btn {
+  margin: 60px 0 155px;
+}
+.down-btn a {
+  padding: 15px 40px;
+  color: #2ecc71;
+  border: 2px solid #2ecc71;
+}
+.down-btn a:hover {
+  color: #fff;
+  background-color: #2ecc71;
+  border: 2px solid #2ecc71;
+}
+
+.education {
+  overflow: hidden;
+  margin: 100px 0 20px;
+}
+
+.my-edu {
+  width: 50%;
+  padding: 0 20px 0 0;
+  float: left;
+}
+.my-edu h2 {
+  padding-bottom: 50px;
+}
+.my-edu p {
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+.my-gpa {
+  width: 50%;
+  overflow: hidden;
+  padding-left: 20px;
+}
+.gpa-details {
+  margin-bottom: 50px;
+}
+.gpa-details p {
+  text-align: justify;
+  padding: 5px 0;
+}
+.gpa-details span {
+  background-color: #2ecc71;
+  padding: 1px 4px;
+  border-radius: 2px;
+}
+.gpa-details p:nth-child(4) {
+  border-top: 1px solid #cccccc;
+  margin-top: 25px;
+}
+
+.work-exp {
+  width: 50%;
+  padding: 0 20px 0 0;
+  float: left;
+  margin-top: 100px;
+}
+.work-exp h2 {
+  padding-bottom: 50px;
+}
+.work-exp p {
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+.my-work {
+  width: 50%;
+  overflow: hidden;
+  padding-left: 20px;
+  margin-top: 100px;
+}
+
+/*my voice css*/
+
+.my-voice {
+  background-color: #f2f2f1;
+  text-align: center;
+  overflow: hidden;
+}
+.my-voice p {
+  padding: 100px 0 60px;
+  font-size: 150%;
+  font-weight: 300;
+  font-style: italic;
+}
+.my-voice h3 {
+  padding-bottom: 80px;
+}
+
+.portfolio {
+  overflow: hidden;
+  padding-bottom: 50px;
+}
+
+.main-cont {
+  width: 100%;
+  text-align: center;
+  padding: 70px 0;
+}
+.main-cont h2 {
+  font-size: 180%;
+  padding-bottom: 30px;
+}
+.main-cont p {
+  padding: 0 50px;
+}
+
+.folio-imgs {
+  width: 100%;
+  overflow: hidden;
+  float: left;
+}
+
+.folio-img {
+  width: 31.2%;
+  float: left;
+  margin-right: 3%;
+  margin-bottom: 25px;
+}
+.folio-img:nth-child(3) {
+  margin-right: 0;
+}
+.folio-img img {
+  width: 100%;
+}
+
+.contact-form {
+  background-color: #252e30;
+  overflow: hidden;
+  padding: 90px 0;
+}
+
+.contact-me {
+  width: 47%;
+  margin-right: 6%;
+  float: left;
+}
+.contact-me h2 {
+  color: #fff;
+  padding-bottom: 30px;
+}
+.contact-me p {
+  color: #7a7c7c;
+  line-height: 22px;
+}
+.contact-me p:first-of-type {
+  padding-bottom: 50px;
+  text-align: justify;
+}
+.contact-me p:last-of-type {
+  padding-bottom: 50px;
+}
+.contact-me th {
+  color: #fff;
+  padding-right: 10px;
+}
+
+.main-form {
+  width: 47%;
+  overflow: hidden;
+  padding-right: 50px;
+}
+
+.form-feild {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  margin: 10px 0;
+}
+.form-feild input,
+.form-feild textarea {
+  width: 100%;
+  border: none;
+  margin-top: 10px;
+  border-radius: 1px;
+  background-color: #4b5456;
+}
+.form-feild label {
+  color: #fff;
+}
+.form-feild input {
+  padding: 15px;
+}
+
+.main-form .cont-btn {
+  width: 100%;
+  overflow: hidden;
+  padding: 50px 0;
+}
+.main-form .cont-btn a {
+  padding: 12px 35px;
+  color: #fff;
+  background-color: #191f21;
+  border: 2px solid transparent;
+}
+.main-form .cont-btn a:hover {
+  color: #fff;
+  background-color: #2ecc71;
+  border: 2px solid #2ecc71;
+}
+
+/*fotter ares css*/
+footer {
+  background-color: #191e21;
+  overflow: hidden;
+}
+.midarea {
+  width: 30%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.copyright p {
+  padding: 40px 0 10px 0;
+}
+
+.social-icon li {
+  float: left;
+  padding: 10px;
+}
+.social-icon li a i {
+  color: #191e21;
+  height: 30px;
+  width: 30px;
+  padding: 7px;
+  border-radius: 50%;
+  background-color: #4b5456;
+}
+.social-icon li a:hover i {
+  color: #fff;
+}
+.copyright {
+  width: 100%;
+}
+.social-icon {
+  display: inline-block;
+}
