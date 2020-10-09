@@ -1,2 +1,2 @@
-# project_2
+# project_personalPortfolio
 only html and css
